@@ -1,0 +1,346 @@
+body, html {
+  color: #333;
+  font: 300 15px/15px Roboto,Arial,Helvetica;
+  background: url(../images/bg.jpg) right no-repeat fixed #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  line-height: 1em;
+}
+
+h2 {
+  font: 300 2.5em Josefin Sans,Arial,Helvetica !important;
+  margin-bottom: 1.5em;
+}
+
+h3 {
+  font: 300 2em Roboto,Arial,Helvetica !important;
+  margin: 2em 0 1em 0 !important;
+}
+
+h4 {
+  font: 300 1.5em Roboto,Arial,Helvetica !important;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.7em !important;
+  margin-bottom: 1.7em, Roboto,Arial,Helvetica !important;
+}
+
+.spacer {
+  padding: 6em 0;
+}
+
+.btn {
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 1em 4em !important;
+  background: rgba(0, 0, 0, 0.5) !important;
+  text-transform: uppercase !important;
+  margin-left: -13px !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #666;
+  width: 100%;
+  outline: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background: #333 !important;
+  box-shadow: none !important;
+}
+
+.navbar-nav li a {
+  font-size: 1em;
+  line-height: 3.6em;
+  font-family: Josefin Sans,Arial,Helvetica;
+}
+
+.navbar-inverse {
+  padding: 10px;
+}
+
+.navbar-brand img {
+  margin-top: -10px;
+}
+
+.navbar-inverse li a {
+  margin-top: 10px;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+/*banner*/
+.banner {
+  position: relative;
+}
+
+.banner .caption {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.banner .caption-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.banner .caption-info {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+}
+
+.banner .caption-info h1 {
+  font: normal 4.5em Lobster,Arial,Helvetica;
+  text-transform: capitalize;
+}
+
+.banner .caption-info p {
+  font: 600 1.7em Josefin Sans,Arial,Helvetica;
+}
+
+/*About Menu*/
+.panel-group .panel a:hover {
+  text-decoration: none;
+}
+
+.panel-group .panel {
+  border-radius: 0;
+  border: none;
+}
+
+.panel-group .panel-title a {
+  font-family: Josefin Sans,Arial,Helvetica;
+}
+
+.panel-group .food-list {
+  line-height: 3em;
+  border-bottom: 1px dotted #ccc;
+  font-family: Roboto,Arial,Helvetica;
+}
+
+.panel-group a {
+  font-size: 16px;
+}
+
+.menu-head {
+  padding: 6em 0;
+}
+
+.menu-head h2 {
+  font: 2.5em Josefin Sans,Arial,Helvetica;
+  margin-bottom: 1.5em;
+}
+
+.menu-head p {
+  font-family: Roboto,Arial,Helvetica;
+  font-size: 1em;
+  line-height: 1.7em;
+  margin-bottom: 1.7em;
+}
+
+.menu-head.about {
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 0;
+}
+
+/*Works*/
+#gallery {
+  padding-top: 6em;
+}
+
+#gallery figcaption a {
+  border: 1px solid #fff;
+  margin-top: 1em;
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+}
+
+#gallery figcaption a:hover {
+  background-color: #000;
+  text-decoration: none;
+}
+
+/*Testimonial*/
+#partners img {
+  float: left;
+  margin: 0 75px 30px 0;
+}
+
+.testimonials {
+  min-height: 195px;
+}
+
+.testimonials img {
+  margin-top: 5px;
+}
+
+.testimonials span {
+  color: #888;
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+.carousel-indicators li {
+  border: 1px solid #ccc;
+}
+
+/*Team*/
+#team figure {
+  width: 100%;
+}
+
+#team img {
+  width: 100%;
+}
+
+#team b {
+  font-size: 1.2em;
+  display: block;
+}
+
+/*About*/
+.about {
+  background: url(../images/lab.jpg) top fixed;
+  background-size: cover;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.about .overlay {
+  background: rgba(59, 51, 48, 0.7);
+}
+
+.about h4 {
+  color: #fff;
+}
+
+/*Contact*/
+.contactForm input {
+  padding-right: 0;
+}
+
+.contactForm input.effect-19, .contactForm textarea.effect-19 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: -13px;
+  border-radius: 0;
+  outline: none;
+}
+
+.contactForm .effect-19:focus {
+  border: 0px solid red;
+}
+
+.contactForm .contactBox {
+  margin-bottom: 30px;
+}
+
+.contactForm .effect-19 ~ .focus-border:before,
+.contactForm .effect-19 ~ .focus-border:after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #6a3f11;
+  transition: 0.4s;
+}
+
+.contactForm .effect-19 ~ .focus-border:after {
+  top: auto;
+  bottom: 0;
+}
+
+.contactForm .effect-19 ~ .focus-border i:before,
+.contactForm .effect-19 ~ .focus-border i:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2px;
+  height: 0;
+  background-color: #6a3f11;
+  transition: 0.6s;
+}
+
+.contactForm .effect-19 ~ .focus-border i:after {
+  left: auto;
+  right: 10;
+}
+
+.contactForm .effect-19:focus ~ .focus-border:before,
+.contactForm .effect-19:focus ~ .focus-border:after,
+.contactForm .has-content.effect-19 ~ .focus-border:before,
+.contactForm .has-content.effect-19 ~ .focus-border:after {
+  left: 0;
+  width: 95.5%;
+  transition: 0.4s;
+}
+
+.contactForm .effect-19:focus ~ .focus-border i:before,
+.contactForm .effect-19:focus ~ .focus-border i:after,
+.contactForm .has-content.effect-19 ~ .focus-border i:before,
+.contactForm .has-content.effect-19 ~ .focus-border i:after {
+  top: -1px;
+  height: 100%;
+  transition: 0.6s;
+}
+
+.contactForm .effect-19 ~ label {
+  position: absolute;
+  left: 14px;
+  width: 100%;
+  top: 10px;
+  color: #aaa;
+  transition: 0.3s;
+  z-index: -1;
+  letter-spacing: 0.5px;
+}
+
+.contactForm .effect-19:focus ~ label, .contactForm .has-content.effect-19 ~ label {
+  top: -18px;
+  left: 0;
+  font-size: 12px;
+  color: #6a3f11;
+  transition: 0.3s;
+}
+
+/*Map*/
+#map {
+  width: 100%;
+  height: 500px;
+}
+
+#map p {
+  margin: 0 !important;
+}
+
+/*Footer*/
+.footer {
+  background-color: #111;
+  color: #fff;
+  font-size: 1em;
+  color: #aaa;
+}
